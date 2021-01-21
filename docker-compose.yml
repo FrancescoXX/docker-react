@@ -1,0 +1,11 @@
+version: '3.8'
+
+services: 
+  react-docker:
+    image: francescoxx/docker-react:0.0.4
+    build: 
+      context: .
+    ports: 
+      - "8080:80"
+    
+      
